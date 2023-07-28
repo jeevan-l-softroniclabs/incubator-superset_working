@@ -42,22 +42,22 @@ We strive to:
 4. **Be inquisitive.** Nobody knows everything! Asking questions early avoids many problems later, so questions are encouraged, though they may be directed to the appropriate forum. Those who are asked should be responsive and helpful, within the context of our shared goal of improving Apache project code.
 
 5. **Be careful in the words that we choose.** Whether we are participating as professionals or volunteers, we value professionalism in all interactions, and take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. Harassment and other exclusionary behavior are not acceptable. This includes, but is not limited to:
-    * Violent threats or language directed against another person.
-    * Sexist, racist, or otherwise discriminatory jokes and language.
-    * Posting sexually explicit or violent material.
-    * Posting (or threatening to post) other people's personally identifying information ("doxing").
-    * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history.
-    * Personal insults, especially those using racist or sexist terms.
-    * Unwelcome sexual attention.
-    * Excessive or unnecessary profanity.
-    * Repeated harassment of others. In general, if someone asks you to stop, then stop.
-    * Advocating for, or encouraging, any of the above behavior.
+   * Violent threats or language directed against another person.
+   * Sexist, racist, or otherwise discriminatory jokes and language.
+   * Posting sexually explicit or violent material.
+   * Posting (or threatening to post) other people's personally identifying information ("doxing").
+   * Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history.
+   * Personal insults, especially those using racist or sexist terms.
+   * Unwelcome sexual attention.
+   * Excessive or unnecessary profanity.
+   * Repeated harassment of others. In general, if someone asks you to stop, then stop.
+   * Advocating for, or encouraging, any of the above behavior.
 
 6. **Be concise.** Keep in mind that what you write once will be read by hundreds of persons. Writing a short email means people can understand the conversation as efficiently as possible. Short emails should always strive to be empathetic, welcoming, friendly and patient. When a long explanation is necessary, consider adding a summary.
 
-    Try to bring new ideas to a conversation so that each mail adds something unique to the thread, keeping in mind that the rest of the thread still contains the other messages with arguments that have already been made.
+   Try to bring new ideas to a conversation so that each mail adds something unique to the thread, keeping in mind that the rest of the thread still contains the other messages with arguments that have already been made.
 
-    Try to stay on topic, especially in discussions that are already fairly large.
+   Try to stay on topic, especially in discussions that are already fairly large.
 
 7. **Step down considerately.** Members of every project come and go. When somebody leaves or disengages from the project they should tell people they are leaving and take the proper steps to ensure that others can pick up where they left off. In doing so, they should remain respectful of those who continue to participate in the project and should not misrepresent the project's goals or achievements. Likewise, community members should respect any individual's choice to leave the project.
 

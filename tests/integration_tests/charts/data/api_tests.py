@@ -1146,7 +1146,7 @@ def physical_query_context(physical_dataset) -> Dict[str, Any]:
     "superset.common.query_context_processor.config",
     {
         **app.config,
-        "CACHE_DEFAULT_TIMEOUT": 1234,
+        "CACHE_DEFAULT_TIMEOUT": 48000,
         "DATA_CACHE_CONFIG": {
             **app.config["DATA_CACHE_CONFIG"],
             "CACHE_DEFAULT_TIMEOUT": None,
@@ -1204,7 +1204,7 @@ def test_force_cache_timeout(test_client, login_as_admin, physical_query_context
         "CACHE_DEFAULT_TIMEOUT": 100000,
         "DATA_CACHE_CONFIG": {
             **app.config["DATA_CACHE_CONFIG"],
-            "CACHE_DEFAULT_TIMEOUT": 3456,
+            "CACHE_DEFAULT_TIMEOUT": 48000,
         },
     },
 )
@@ -1250,7 +1250,7 @@ def test_chart_cache_timeout(
         **app.config,
         "DATA_CACHE_CONFIG": {
             **app.config["DATA_CACHE_CONFIG"],
-            "CACHE_DEFAULT_TIMEOUT": 1010,
+            "CACHE_DEFAULT_TIMEOUT": 48000,
         },
     },
 )
@@ -1278,7 +1278,7 @@ def test_chart_cache_timeout_not_present(
         **app.config,
         "DATA_CACHE_CONFIG": {
             **app.config["DATA_CACHE_CONFIG"],
-            "CACHE_DEFAULT_TIMEOUT": 1010,
+            "CACHE_DEFAULT_TIMEOUT": 48000,
         },
     },
 )

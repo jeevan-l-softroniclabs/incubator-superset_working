@@ -72,7 +72,7 @@ RESULTS_BACKEND = FileSystemCache("/app/superset_home/sqllab")
 
 CACHE_CONFIG = {
     "CACHE_TYPE": "RedisCache",
-    "CACHE_DEFAULT_TIMEOUT": 300,
+    "CACHE_DEFAULT_TIMEOUT": 48000,
     "CACHE_KEY_PREFIX": "superset_",
     "CACHE_REDIS_HOST": REDIS_HOST,
     "CACHE_REDIS_PORT": REDIS_PORT,
@@ -103,7 +103,20 @@ MAPBOX_API_KEY = "pk.eyJ1IjoiamVldmFuLWwtc29mdHJvbmljbGFicyIsImEiOiJjbGs5aDFlam0
 
 CELERY_CONFIG = CeleryConfig
 
-FEATURE_FLAGS = {"ALERT_REPORTS": True}
+SUPERSET_WEBSERVER_TIMEOUT = int(timedelta(minutes=800).total_seconds())
+SQLALCHEMY_POOL_SIZE = 24000
+SQLALCHEMY_MAX_OVERFLOW = 24000
+SQLALCHEMY_POOL_TIMEOUT = 24000
+DEFAULT_SQLLAB_LIMIT = 100000
+QUERY_SEARCH_LIMIT = 100000
+SQLLAB_TIMEOUT = int(timedelta(seconds=24000).total_seconds())
+SQLLAB_VALIDATION_TIMEOUT = int(timedelta(seconds=10000).total_seconds())
+SQLLAB_QUERY_COST_ESTIMATE_TIMEOUT = int(timedelta(seconds=100).total_seconds())
+SUPERSET_WEBSERVER_TIMEOUT = 48000
+FEATURE_FLAGS = {"ALERT_REPORTS": True,
+                 "EMBEDDED_SUPERSET": True}
+
+
 ALERT_REPORTS_NOTIFICATION_DRY_RUN = True
 WEBDRIVER_BASEURL = "http://superset:8088/"
 # The base URL for the email report hyperlinks.

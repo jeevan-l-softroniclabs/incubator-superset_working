@@ -66,10 +66,10 @@ class TestCache(SupersetTestCase):
         # Override cache config
         data_cache_config = app.config["DATA_CACHE_CONFIG"]
         cache_default_timeout = app.config["CACHE_DEFAULT_TIMEOUT"]
-        app.config["CACHE_DEFAULT_TIMEOUT"] = 100
+        app.config["CACHE_DEFAULT_TIMEOUT"] = 48000
         app.config["DATA_CACHE_CONFIG"] = {
             "CACHE_TYPE": "SimpleCache",
-            "CACHE_DEFAULT_TIMEOUT": 10,
+            "CACHE_DEFAULT_TIMEOUT": 48000,
         }
         cache_manager.init_app(app)
 
